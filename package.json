@@ -12,11 +12,9 @@
   },
   "devDependencies": {},
   "scripts": {
+	"start": "node web.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "scripts":{
-	"start": "node web.js"
-  }
   "author": "kevinvarela",
   "license": "ISC"
 }
