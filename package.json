@@ -1,0 +1,20 @@
+{
+  "name": "seriestop",
+  "version": "1.0.0",
+  "description": "web de series para el proyecto de das",
+  "main": "web.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "jade": "^1.11.0",
+    "method-override": "^2.3.10",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.0.0-rc2"
+  },
+  "devDependencies": {},
+  "scripts": {
+	"start": "node web.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kevinvarela",
+  "license": "ISC"
+}

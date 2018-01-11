@@ -1,0 +1,22 @@
+extends ../layout.jade
+block cabecera
+	h1 Panel admins
+	table(class="table")
+		caption Series actuales
+		thead
+			tr
+				th #
+				th Titulo
+				th Descrip
+				th Nota
+			tbody
+				each producto in productos
+					tr
+						td= producto.id
+						td= producto.titulo
+						td= producto.descrip
+						td= producto.nota
+						td 
+							a(href="/menu/edit/#{producto.id}") Editar
+							=" - "
+							a(href="/menu/delete/#{producto.id}") Eliminar
